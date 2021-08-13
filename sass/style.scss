@@ -1,0 +1,32 @@
+@import "../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+
+//Abstract
+@import "abstract/mixins";
+@import "abstract/constants.scss";
+@import "abstract/placeholders";
+
+
+//Base
+@import "base/base";
+@import "base/buttons";
+
+//Layouts
+@import "layouts/container";
+@import "layouts/sidebar";
+@import "layouts/header";
+
+//Components
+@import "components/promo";
+@import "components/brands";
+@import "components/create-account";
+@import "components/sysop";
+
+
+
+//.sysop__container {
+//  background: #0460BA url(/img/logo-bg.svg) right bottom no-repeat;
+//  border-radius: 8px;
+//  height: 600px;
+//}
+//в пакет джейсоне

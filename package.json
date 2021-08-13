@@ -1,0 +1,17 @@
+{
+  "name": "cloud777",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@massds/mayflower-assets": "^11.12.0",
+    "modern-normalize": "^1.1.0",
+    "normalize-scss": "^7.0.1"
+  }
+}
